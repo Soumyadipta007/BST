@@ -22,6 +22,7 @@ namespace BST_DS
             Console.WriteLine("Binary Search Tree -");
             binarySearchTree.Display();
             binarySearchTree.Size();
+            bool findElement = binarySearchTree.ifExists(63,binarySearchTree);
         }
     }
 }
